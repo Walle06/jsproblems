@@ -1,0 +1,51 @@
+#clock{
+		
+	}
+#startGame{
+		width: 200px;
+		height: 100px;
+		background: blue;
+		color: white;
+		text-align: center;
+		border-radius: 30px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		cursor: pointer;
+	}
+#square{
+		background: blue;
+		text-align: center;
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		margin: 0 auto;
+		border: solid 1px white;
+	}
+#lightbox{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    display: none;
+}
+#lightBoxContentBox{
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 30px;
+/*trick to put a div in the middle of page */
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    margin: auto;
+
+    /*padding: 30px;*/
+}
+#closeBtn{
+    cursor: pointer;
+}
